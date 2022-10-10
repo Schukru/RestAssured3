@@ -87,6 +87,6 @@ public class ZippoTest {
                         .extract().path("data.id");
 
         System.out.println("id List = " + idList);
-        Assert.assertTrue(idList.contains(3044));
+        Assert.assertTrue(idList.contains(2140));
     }
 }
